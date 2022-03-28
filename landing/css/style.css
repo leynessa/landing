@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+}
+
+ h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("https://media.istockphoto.com/photos/abstract-digital-network-communication-picture-id1149365028?b=1&k=20&m=1149365028&s=170667a&w=0&h=BaeH1F0Hdr6gTRJG3uVEGtb3prRZJHXyq3Km4auqWBM=");
+  background-size: 100% 100%;
+  text-align: center;
+  align-content: center;
+  padding: 50px;
+  height: 100vh;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+
+}
+.container h1{
+  text-align: center;
+  padding: 50px;
+  margin-top: 10%;
+}
+
+
+.hero h1 {
+  color: white;
+  font-weight: boldest;
+  font-size: 40px;
+}
+
+.hero p {
+  color: rgb(250, 229, 229);
+  opacity: .9;
+  font-size: 20px;
+  text-shadow: rgba(50%, 50%, 50%, .7) 2px, 2px, 3px ;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+
+.container-middle {
+ text-align: center;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: .5;
+}
+
+.card {
+  width: 300px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(224, 213, 213);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #1EDD88;
+}
+
+.footer p {
+  color: #dbffff;
+}
+
+.footer {
+  align-items: center;
+  text-align: center;
+  background-color: #272a2a;
+}
